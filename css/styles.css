@@ -73,7 +73,7 @@ html {
 }
 
 .icons-social i {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 /* Custom Styles */
@@ -110,6 +110,7 @@ main {
 
 .icons-social i {
 	padding: 10px;
+
 }
 
 .devto {
