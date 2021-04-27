@@ -78,8 +78,6 @@ html {
 
 /* Custom Styles */
 body{
-	background-color: black;
-
 }
 
 main {
@@ -90,7 +88,7 @@ main {
 	padding: 0 30px;
 	text-align: center;
 	background: rgb(255,255,255);
-	background: linear-gradient(180deg,  #fff 0%, #debf19 10%, #c4b94d 60%, #29683d 80%, #2a2a2c 92%, #000 100%);
+	background: linear-gradient(180deg,  #fff 0%, #4db0e7 10%, #000 60%, #49a735 92%, #000 100%);
 	padding: 40px;
 }
 
@@ -99,7 +97,7 @@ main {
 	font-size: 5.75em;
 	font-weight: 600;
 	letter-spacing: 0.03em;
-	color: #2a2a2a;
+	color: #fff;
 }
 
 .tagline {
@@ -107,7 +105,7 @@ main {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
-	color: #2a2a2a; 
+	color: #fff; 
 }
 
 .icons-social i {
@@ -128,15 +126,15 @@ main {
 /* icons */
 
 .icons-social a {
-	color: #2a2a2a;
+	color: #fff;
 }
 .icons-social a:hover {
-	color: #b299b6;
+	color: #4db0e7;
 }
 
 .icons-social a svg path{
-	fill: #2a2a2a;
+	fill: #fff;
 }
 .icons-social a svg path:hover{
-	fill: #b299b6;
+	fill: #4db0e7;
 }
