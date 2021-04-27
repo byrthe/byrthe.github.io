@@ -1,0 +1,142 @@
+/* Typography */
+@font-face {
+	font-family: 'Cirrus';
+	src:  url('css/font/CirrusCumulus.woff') format('woff'),
+		  url('css/font/CirrusCumulus.woff') format('woff');
+  }
+  
+@font-face {
+    font-family: 'Ouroboros';
+    src:    url('font/Ouroboros/Ouroboros-Regular.eot.eot');
+    src:    url('font/Ouroboros/Ouroboros-Regular.woff.woff') format('woff'),
+            url('font/Ouroboros/Ouroboros-Regular.woff.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Auth60';
+    src:    url('font/Auth/AUTHENTICSans-Condensed-60.woff') format('woff'),
+            url('font/Auth/AUTHENTICSans-Condensed-60.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Auth130';
+    src:    url('font/Auth/AUTHENTICSans-Condensed-130.woff') format('woff'),
+            url('font/Auth/AUTHENTICSans-Condensed-130.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeagueBlack';
+    src:    url('font/Spartan/LeagueSpartan-Black.woff') format('woff'),
+            url('font/Spartan/LeagueSpartan-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeagueMedium';
+    src:    url('font/Spartan/LeagueSpartan-Medium.woff') format('woff'),
+            url('font/Spartan/LeagueSpartan-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	font-family: 'LeagueBlack', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+body{
+	background-color: black;
+
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg,  #fff 0%, #debf19 10%, #c4b94d 60%, #29683d 80%, #2a2a2c 92%, #000 100%);
+	padding: 40px;
+}
+
+.intro {
+	font-family: 'LeagueMedium', sans-serif;
+	font-size: 5.75em;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	color: #2a2a2a;
+}
+
+.tagline {
+	font-family: 'LeagueMedium', sans-serif;
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+	color: #2a2a2a; 
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+/* icons */
+
+.icons-social a {
+	color: #2a2a2a;
+}
+.icons-social a:hover {
+	color: #b299b6;
+}
+
+.icons-social a svg path{
+	fill: #2a2a2a;
+}
+.icons-social a svg path:hover{
+	fill: #b299b6;
+}
